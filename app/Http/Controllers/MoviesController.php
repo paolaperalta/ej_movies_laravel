@@ -22,6 +22,8 @@ class MoviesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+     // EJ CLASE 2:
     public function index()
     {
         //
@@ -32,6 +34,8 @@ class MoviesController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+
+     //EJ CLASE 2:
     public function create()
     {
         //
@@ -43,6 +47,8 @@ class MoviesController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
+
+     // EJ CLASE 2:
     public function store(Request $request)
     {
         //
@@ -54,6 +60,8 @@ class MoviesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
+
+     //DEL EJ CLASE 2:
     public function show($id)
     {
         //
